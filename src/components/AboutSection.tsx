@@ -101,7 +101,7 @@ export function AboutSection() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">소개</h2>
           <div className="w-20 h-1 bg-neutral-300 dark:bg-neutral-700 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-neutral-600 dark:text-neutral-400">
-            저는 사용자 경험을 중시하는 웹 개발자로, 모던 웹 기술을 활용하여 
+            저는 사용자 경험을 중시하는 <span style={{color: '#00FF00', backgroundColor: '#000000', padding: '0 5px'}} className="font-semibold">웹 전문가</span>로, 모던 웹 기술을 활용하여 
             직관적이고 효율적인 웹 애플리케이션을 구현합니다. 
             새로운 기술 습득과 문제 해결에 열정을 가지고 있습니다.
           </p>

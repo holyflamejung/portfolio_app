@@ -13,8 +13,10 @@ export function HeroSection() {
         <div
           className="max-w-3xl mx-auto"
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-neutral-800 to-neutral-600 dark:from-neutral-200 dark:to-neutral-400 bg-clip-text text-transparent">
-            안녕하세요, 웹 개발자입니다
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <span className="bg-gradient-to-r from-neutral-800 to-neutral-600 dark:from-neutral-200 dark:to-neutral-400 bg-clip-text text-transparent">안녕하세요, </span>
+            <span style={{color: '#00FF00', backgroundColor: '#000000', padding: '0 5px'}} className="font-bold">웹 전문가</span>
+            <span className="bg-gradient-to-r from-neutral-800 to-neutral-600 dark:from-neutral-200 dark:to-neutral-400 bg-clip-text text-transparent">입니다</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-neutral-700 dark:text-neutral-300">
             창의적인 솔루션과 세련된 디자인으로 웹 경험을 혁신합니다
